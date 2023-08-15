@@ -997,14 +997,14 @@
             <div>Rim size</div>
             <input type="range" data-variable="--rim-size" min="15" max="22" data-unit="&quot;" />
             <div class="value"></div>
-            <div>Suspension lift</div>
-            <input type="range" data-variable="--suspension-lift" min="0" max="200" data-unit=" mm" />
-            <div class="value"></div>
             <div>Body lift</div>
-            <input type="range" data-variable="--body-lift" min="0" max="200" data-unit=" mm" />
+            <input type="range" data-variable="--body-lift" min="0" max="200" step="5" data-unit=" mm" />
+            <div class="value"></div>
+            <div>Suspension lift</div>
+            <input type="range" data-variable="--suspension-lift" min="0" max="200" step="5" data-unit=" mm" />
             <div class="value"></div>
             <div>Track offset</div>
-            <input type="range" data-variable="--track-offset" min="-50" max="150" data-unit=" mm" />
+            <input type="range" data-variable="--track-offset" min="-50" max="150" step="5" data-unit=" mm" />
             <div class="value"></div>
         </div>
     </foreignObject>
